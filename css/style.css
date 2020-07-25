@@ -1,0 +1,61 @@
+#switcher {
+	position: fixed;
+	right: -204px;
+    top: 240px;
+    width: 240px;
+    z-index: 999999;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+.open-switcher {
+	display: inline-block;
+    width: 40px;
+    height: 40px;
+    float: left;
+    background: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    color: #222222;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 2px #999;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    -o-box-shadow: 0 0 2px #999;
+}
+
+.cart-icon {
+	position: relative;
+    padding-right: 16px;
+    padding-left: .5rem;
+    padding-top: .6rem;
+}
+.shopping-cart-items-count {
+	position: absolute;
+    right: 0;
+    top: 4px;
+    width: 15px;
+    height: 15px;
+    line-height: 17px;
+    font-size: 11px;
+    background-color: #ffc925;
+    color: #fff;
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+}
+body {
+	font-family: "Lato", sans-serif;
+    color: #777;
+    font-size: 14px;
+    line-height: 1.875;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
