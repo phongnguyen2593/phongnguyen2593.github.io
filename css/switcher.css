@@ -1,0 +1,112 @@
+.switcher {
+	position: fixed;
+	left: -200px;
+    top: 50%;
+    width: 200px;
+    z-index: 999999;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    background-color: #fff;
+}
+
+.open-switcher {
+	position: absolute;
+	display: inline-block;
+    width: 40px;
+    height: 40px;
+    right: -40px;
+    top: 0;
+    border: 0;
+    background: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    color: #222222;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 2px #999;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    -o-box-shadow: 0 0 2px #999;
+}
+
+
+.active {
+	left: 0;
+}
+
+.yellow, .orange, .red, .blue, .green, .blue2, .box, .wide {
+    cursor: pointer;
+}
+/*set color*/
+.yellow {
+	background: #ffba00;
+}
+
+.orange {
+	background: #f27835;
+}
+.red {
+	background: #fb2b2b;
+}
+.blue {
+    background: #3f80d0;
+}
+.green {
+    background: #1bbc9b;
+}
+.blue2 {
+    background: #67bacc;
+}
+
+.color-switch, .bg-switch {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	width: 170px;
+}
+.color-switch li, .bg-switch li {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+}
+
+/*set background*/
+.change-bg {
+    display: none;
+}
+
+.box span {
+    display: block;
+    float: left;
+    width: 13px;
+    height: 13px;
+    border: 1px solid #999;
+    border-left: 4px solid #999;
+    border-right: 4px solid #999;
+    margin-top: 7px;
+    margin-left: 17px;
+}
+.wide span {
+    display: block;
+    float: left;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #999;
+    margin-top: 6px;
+    margin-left: 20px;
+}
+
+.bg-1 {
+    background-image: url('../images/bg2.jpg');
+}
+.bg-2 {
+    background-image: url('../images/bg3.jpg');
+}
+.bg-3 {
+    background-image: url('../images/bg1.jpg');
+}
