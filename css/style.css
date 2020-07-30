@@ -1,5 +1,5 @@
 *{
-    
+
 }
 
 html {
@@ -116,14 +116,51 @@ body {
     transition: width 1s ease;
 }
 .filter li:hover span {
-      width: 100%;
+  width: 100%;
+}
+
+.grid-item {
+    overflow: hidden;
+}
+.bike-title {
+    position: absolute;
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    text-align: center;
+    transition: height 0.5s ease-in;
+}
+.bike-title p {
+    font-size: 14px;
+}
+
+.grid-item:hover .bike-title{
+    height: 50%;
+}
+.grid-item img{
+    transition: all 1s ease;
+}
+.grid-item:hover img{
+    transform: scale(1.3);
 }
 
 /*FACTS*/
 #facts {
     background-attachment: fixed;
-    font-family: "Montserrat", sans-serif;
+    padding: 100px 0;
 }
+.number {
+    font-size: 40px;
+    margin-bottom: 3px;
+    line-height: normal;
+    color: rgb(250, 102, 0);
+}
+#facts .white {
+    font-size: 0.928rem;
+    letter-spacing: 2px;
+}
+
 
 /*CONTACT*/
 .contact-item i {
